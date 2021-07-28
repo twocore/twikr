@@ -1,0 +1,29 @@
+{
+    "name"        : "twocore/twikr",
+    "description" : "Twig Brige for Mako Framework",
+    "type"        : "library",
+    "homepage"    : "https://github.com/twocore/twikr",
+    "license"     : "MIT",
+    "version"     : "0.1.0",
+
+    "authors": [
+        {
+            "name"  : "Christian Galander",
+            "email" : "development@iicore.de"
+        }
+    ],
+
+    "require": {
+        "mako/framework" : "^7.2",
+        "twig/twig"      : "^3.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "twocore\\twikr\\" : "src/"
+        }
+    },
+
+    "prefer-stable"     : true,
+    "minimum-stability" : "dev"
+}
